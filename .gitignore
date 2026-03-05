@@ -1,0 +1,51 @@
+# ============================================================
+# Events Management System — .gitignore
+# ============================================================
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# --- PHP / Composer ---
+vendor/
+composer.lock
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.*.local
+config/db_config.php
+
+# --- Logs ---
+*.log
+logs/
+error_log
+
+# --- Uploaded files (user-generated content) ---
+assets/uploads/
+uploads/
+
+# --- Cache ---
+cache/
+tmp/
+temp/
+
+# --- Database exports / backups ---
+*.sql
+*.sql.gz
+*.dump
+backups/
+
+# --- Node (if any frontend tooling is added later) ---
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
